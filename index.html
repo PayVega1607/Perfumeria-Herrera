@@ -1094,5 +1094,9 @@ function showToast(text){
   toastTimer = setTimeout(()=>toast.classList.remove('show'), 2600);
 }
 </script>
+<script type="module">
+  import { injectSpeedInsights } from 'https://unpkg.com/@vercel/speed-insights/dist/index.mjs';
+  injectSpeedInsights();
+</script>
 </body>
 </html>
